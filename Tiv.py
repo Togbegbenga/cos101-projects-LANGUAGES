@@ -37,9 +37,9 @@ result_label.pack()
 
 
 def search (word):
-    if word in Yoruba_dictionary:
-            result.set(Yoruba_dictionary[word])
-            print(Yoruba_dictionary[word])
+    if word in Tiv_dictionary:
+            result.set(Tiv_dictionary[word])
+            print(Tiv_dictionary[word])
     else:
             result.set("not found")
 
