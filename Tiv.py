@@ -51,4 +51,3 @@ exit_button=Button(window, text="exit",command=lambda: exit())
 
 word_entry =Entry(window, textvariable=word, font=('ariel',19))
 window.mainloop()
-
